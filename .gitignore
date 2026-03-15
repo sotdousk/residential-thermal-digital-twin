@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Local envs
+.venv/
+env/
+venv/
+
+# Data
+data/raw/*
+!data/raw/README.md
+
+# Outputs
+*.db
+*.sqlite
