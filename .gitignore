@@ -21,6 +21,11 @@ venv/
 data/raw/*
 !data/raw/README.md
 
+# Reports
+reports/*
+!reports/figures/
+!reports/figures/*.png
+
 # Outputs
 *.db
 *.sqlite
