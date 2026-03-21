@@ -61,9 +61,7 @@ The project is structured in four main steps:
 
 The final model is based on a first-order energy balance:
 
-$$
-T(t+1) = T(t) + \left[-k (T(t) - T_{out}) + \alpha \cdot \text{solar\_proxy}\right] \Delta t
-$$
+T(t+1) = T(t) + [-k · (T(t) - T_out) + α · solar_proxy] · Δt
 
 Where:
 - k represents heat loss to the environment
